@@ -52,7 +52,7 @@ db.orders.find({ Region: "West" })
 
 ### 📌 Update Documents
 ```js
-db.orders.updateOne({ name: "Alice" }, { $set: { sales: 550 } })
+db.orders.updateOne({ name: "Wiry" }, { $set: { sales: 550 } })
 db.orders.updateMany({ "Ship Mode": "First Class" }, { $set: { "Ship Mode": "Premium Class" } })
 ```
 
