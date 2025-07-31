@@ -40,8 +40,8 @@ show collections
 
 ### 📌 Insert Documents
 ```js
-db.orders.insertOne({ name: "Alice", sales: 500 })
-db.orders.insertMany([{ name: "Bob" }, { name: "Charlie" }])
+db.orders.insertOne({ name: "Wiry", sales: 500 })
+db.orders.insertMany([{ name: "Vikash" }, { name: "Kumar" }])
 ```
 
 ### 📌 Read Documents
@@ -58,7 +58,7 @@ db.orders.updateMany({ "Ship Mode": "First Class" }, { $set: { "Ship Mode": "Pre
 
 ### 📌 Delete Documents
 ```js
-db.orders.deleteOne({ name: "Charlie" })
+db.orders.deleteOne({ name: "Kumar" })
 db.orders.deleteMany({ sales: { $lt: 50 } })
 ```
 
