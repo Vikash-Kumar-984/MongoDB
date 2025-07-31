@@ -149,16 +149,11 @@ for doc in collection.aggregate(pipeline):
     print(doc)
 ```
 
----
 
-## 📦 To Do
-- [ ] Add full backup/restore instructions
-- [ ] Integrate with MongoDB Atlas
-- [ ] Add Compass GUI examples
-- [ ] Add visualization with Python
 
 ---
 
 ## 📌 Author  
-*Vikash Kumar | Data Scientist*  
-Feel free to clone, fork, or contribute!
+**Vikash Kumar | Data Scientist**
+
+**Feel free to clone, fork, or contribute!
